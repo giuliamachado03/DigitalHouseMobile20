@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horas_trabalhadas"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="30dp"/>
+
+    <EditText
+        android:id="@+id/edtxtHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/horas"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_da_hora"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="30dp"/>
+
+
+    <EditText
+        android:id="@+id/edtxtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:hint="@string/valor_hora"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="60dp"
+        android:backgroundTint="@color/button"
+        android:text="@string/calcular"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtCalculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+
+</LinearLayout>
