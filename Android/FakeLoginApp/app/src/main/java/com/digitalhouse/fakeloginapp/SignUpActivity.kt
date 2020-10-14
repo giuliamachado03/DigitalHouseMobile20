@@ -10,12 +10,13 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        btnCreateAccountSignUp.setOnClickListener {
-            finish()
-        }
 
         checkAgree.setOnCheckedChangeListener { _, isChecked ->
-            btnCreateAccountSignUp.isEnabled = isChecked
+            btnSignUp.isEnabled = isChecked
+        }
+
+        btnLogin.setOnClickListener {
+            finish()
         }
 
     }
