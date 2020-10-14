@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorMain"
+        android:textSize="34sp"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_your_account"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorMain"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:letterSpacing="0.3"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginHorizontal="30dp"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorMain"
+        android:backgroundTint="@color/colorMain"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginHorizontal="30dp"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorMain"
+        android:backgroundTint="@color/colorMain"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginHorizontal="30dp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorMain"
+        android:backgroundTint="@color/colorMain"
+        android:importantForAutofill="no" />
+
+    <CheckBox
+        android:id="@+id/checkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorMain"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/i_have_read_and_agree_the_privacy_policy"/>
+
+    <Button
+        android:id="@+id/btnLoginSignUp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:text="@string/log_in"
+        android:textSize="16sp"
+        android:background="@color/colorMain"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnCreateAccountSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="@color/colorMain"
+        android:text="@string/create_account"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
