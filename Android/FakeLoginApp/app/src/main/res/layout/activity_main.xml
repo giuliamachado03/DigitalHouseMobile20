@@ -41,6 +41,7 @@
         android:layout_gravity="center|center_vertical">
 
         <EditText
+            android:id="@+id/edtxtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
@@ -52,6 +53,7 @@
             android:importantForAutofill="no" />
 
         <EditText
+            android:id="@+id/edtxtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"

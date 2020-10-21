@@ -31,37 +31,40 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/edtxtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/name"
         android:layout_marginHorizontal="30dp"
         android:singleLine="true"
         android:inputType="textPersonName"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorMain"
         android:textColorHint="@color/colorMain"
         android:backgroundTint="@color/colorMain"
         android:importantForAutofill="no" />
 
     <EditText
+        android:id="@+id/edtxtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
         android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorMain"
         android:singleLine="true"
         android:inputType="textEmailAddress"
-        android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorMain"
         android:backgroundTint="@color/colorMain"
         android:importantForAutofill="no" />
 
     <EditText
+        android:id="@+id/edtxtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
         android:layout_marginHorizontal="30dp"
         android:singleLine="true"
         android:inputType="textPassword"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorMain"
         android:textColorHint="@color/colorMain"
         android:backgroundTint="@color/colorMain"
         android:importantForAutofill="no" />
