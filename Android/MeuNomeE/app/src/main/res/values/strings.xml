@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">MeuNomeE</string>
-    <string name="nome">Nome</string>
-    <string name="digite_seu_nome">Digite seu nome</string>
-    <string name="exibir">Exibir</string>
-    <string name="mensagem">Meu nome é</string>
-</resources>
