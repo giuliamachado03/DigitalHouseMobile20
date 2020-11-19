@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewWhatsApp</string>
+    <string name="nome">Nome</string>
+    <string name="foto_de_perfil">Foto de perfil</string>
+    <string name="mensagem">Mensagem</string>
+    <string name="hora">hora</string>
+</resources>
